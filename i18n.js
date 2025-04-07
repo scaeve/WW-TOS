@@ -1,6 +1,6 @@
 const translations = {
     en: {
-        pageTitle: "Terms and Conditions",
+        "pageTitle": "Terms and Conditions",
         "1cec19d8-8213-80e1-b5a0-cddbdc913192": "Updated: 7-4-2025",
         "1cec19d8-8213-8064-b8f8-c60dd728de1e": "These terms apply to the use of the reservation widget that allows main bookers to make a reservation on the website of an affiliated restaurant. By using this widget, you agree to these terms and conditions.",
         "1cec19d8-8213-8042-a87b-cabd3756f906": "1. Scope",
@@ -66,17 +66,46 @@ const translations = {
         "1cec19d8-8213-8042-a628-d05e0e95a1ca": "You can also file a complaint with the Dutch Data Protection Authority if you believe your rights under the GDPR have been violated.",
         "1cec19d8-8213-8035-959b-c5a2c1a05b02": "GDPR Article: Article 77",
 
-        "1cec19d8-8213-80b0-bd1a-f5c31c1f7ee1" : "• First and last name",
-        "1cec19d8-8213-8071-bd87-f7a4965b430b" : "• E-mail adress",
-        "1cec19d8-8213-80f2-b9a3-e9056d9013dc" : "• Phone number",
-        "1cec19d8-8213-805e-a5f2-e8039a79b217" : "• Comments regarding allergies or dietary preferences (optional)",
-        "1cec19d8-8213-803f-9509-c1628b23e12d" : "• Make false or fraudulent reservations;",
-        "1cec19d8-8213-803e-b4a0-ee98a7324467" : "• Make multiple bookings with no intention to attend;",
-        "1cec19d8-8213-80f5-8b75-cb3282f0ef05" : "• Use the system in a disruptive or harmful manner to the platform or the restaurant.",
-        "1cec19d8-8213-80f6-aa12-deea629d25d1" : "• We are not liable for damages caused by outages, delays, or system errors.",
-        "1cec19d8-8213-80a6-adfc-c7ef7a455098" : "• We are not responsible for reservation errors due to incorrect user input.",
-        "1cec19d8-8213-80bb-b9e9-f7652f8fbf4b" : "• The restaurant is ultimately responsible for the execution of the reservation and its services."
-        }, 
+        // Contact Information
+        "1cec19d8-8213-80ba-ad59-d6effbbc9dc1": "• Email: info@waste-warrior.com",
+        "1cec19d8-8213-80ee-b8cd-c6ec0c9a7b72": "• +31 6 11 75 81 89",
+        "1cec19d8-8213-80da-98b5-e9bb07411e76": "• FAQ: Waste Warrior Site",
+        "1cec19d8-8213-805b-bdc7-ccc0663cef6e": "• Email: info@waste-warrior.com",
+        "1cec19d8-8213-808e-a26f-d066be965d8b": "• Phone: +31 6 11 758 189",
+
+        // Bullet Points
+        "1cec19d8-8213-80b0-bd1a-f5c31c1f7ee1": "• First and last name",
+        "1cec19d8-8213-8071-bd87-f7a4965b430b": "• Email address",
+        "1cec19d8-8213-80f2-b9a3-e9056d9013dc": "• Phone number",
+        "1cec19d8-8213-805e-a5f2-e8039a79b217": "• Comments regarding allergies or dietary preferences (optional)",
+        "1cec19d8-8213-803f-9509-c1628b23e12d": "• Make false or fraudulent reservations;",
+        "1cec19d8-8213-803e-b4a0-ee98a7324467": "• Make multiple bookings with no intention to attend;",
+        "1cec19d8-8213-80f5-8b75-cb3282f0ef05": "• Use the system in a disruptive or harmful manner to the platform or the restaurant.",
+        "1cec19d8-8213-80f6-aa12-deea629d25d1": "• We are not liable for damages caused by outages, delays, or system errors.",
+        "1cec19d8-8213-80a6-adfc-c7ef7a455098": "• We are not responsible for reservation errors due to incorrect user input.",
+        "1cec19d8-8213-80bb-b9e9-f7652f8fbf4b": "• The restaurant is ultimately responsible for the execution of the reservation and its services.",
+
+        // Privacy Policy
+        "1cec19d8-8213-80bc-8201-e5db4c53e31c": "• Consent: By using the reservation widget, you consent to the processing of your personal data for the purpose of managing your reservation.",
+        "1cec19d8-8213-80d6-898e-f0a008b9d716": "• Contractual necessity: The processing is necessary to fulfill our contractual obligations to provide you with the reservation service.",
+        "1cec19d8-8213-8063-8c5d-c57cbb493fdf": "• Legitimate interest: We may process your data based on our legitimate interests, such as improving our services or ensuring the security of our systems.",
+        "1cec19d8-8213-807d-93b5-d47835023c3d": "• To confirm and manage your reservation.",
+        "1cec19d8-8213-8049-9b4b-c088d0595472": "• To inform you about the status of your reservation.",
+        "1cec19d8-8213-80b9-883b-e4df39e80dda": "• To share your information with the restaurant where you make a reservation, and only to the extent necessary.",
+        "1cec19d8-8213-806b-9071-eca72f0ec743": "• To comply with legal obligations, such as accounting or tax requirements.",
+        "1cec19d8-8213-8085-8bac-cb6a80823c10": "• Data encryption during transmission and storage.",
+        "1cec19d8-8213-8022-89f1-f08529e0c031": "• Access controls to limit access to data to authorized personnel only.",
+        "1cec19d8-8213-8035-a32a-eb996684e616": "• Regular security audits and monitoring.",
+        "1cec19d8-8213-80c1-9453-ccc13584edcf": "• Right of access: You have the right to request access to your personal data and receive a copy of the data we process about you.",
+        "1cec19d8-8213-80c8-875d-e442e0c7f7dc": "• Right to rectification: You have the right to request the correction of inaccurate or incomplete personal data.",
+        "1cec19d8-8213-8085-9703-dba017373bd6": "• Right to erasure: You have the right to request the deletion of your personal data, unless the data is required for legal or contractual reasons.",
+        "1cec19d8-8213-8048-bb85-ef0db0dd45cc": "• Right to restriction of processing: You have the right to request the restriction of processing of your personal data in certain circumstances, such as when you contest the accuracy of the data.",
+        "1cec19d8-8213-80c8-83e9-f717d0cdbcf3": "• Right to data portability: You have the right to receive your personal data in a structured, commonly used, and machine-readable format and to transmit this data to another controller.",
+        "1cec19d8-8213-803e-8765-d1d67e3c790e": "• Right to object: You have the right to object to the processing of your personal data, particularly if the processing is based on legitimate interest.",
+        "1cec19d8-8213-8010-b384-ce57feacd770": "• Right to withdraw consent: If you have given consent for the processing of your personal data, you can withdraw this consent at any time.",
+        "1cec19d8-8213-80de-b61a-d700d2ae9f23": "• Essential cookies: These are necessary for the basic functionality of the widget, such as managing your reservation.",
+        "1cec19d8-8213-804c-bc95-dda81cd1ce7d": "• Analytical cookies: These help us analyze how the widget is used so that we can improve performance."
+    },
     nl: {
         greeting: "Algemene voorwaarden",
         description: "bijgewerkt: 7-4-2025",
@@ -142,13 +171,52 @@ const translations = {
         "1cec19d8-8213-80b7-9ce4-c6d329d3863f": "9. Contact",
         "1cec19d8-8213-8086-bf3e-c631a67282b7": "Voor vragen of klachten over uw privacy kunt u contact met ons opnemen via:",
         "1cec19d8-8213-8042-a628-d05e0e95a1ca": "U kunt ook een klacht indienen bij de Autoriteit Persoonsgegevens als u denkt dat uw rechten onder de AVG zijn geschonden.",
-        "1cec19d8-8213-8035-959b-c5a2c1a05b02": "AVG-artikel: Artikel 77"
+        "1cec19d8-8213-8035-959b-c5a2c1a05b02": "AVG-artikel: Artikel 77",
+
+        // Contact Information
+        "1cec19d8-8213-80ba-ad59-d6effbbc9dc1": "• E-mail: info@waste-warrior.com",
+        "1cec19d8-8213-80ee-b8cd-c6ec0c9a7b72": "• +31 6 11 75 81 89",
+        "1cec19d8-8213-80da-98b5-e9bb07411e76": "• FAQ: Waste Warrior Site",
+        "1cec19d8-8213-805b-bdc7-ccc0663cef6e": "• E-mail: info@waste-warrior.com",
+        "1cec19d8-8213-808e-a26f-d066be965d8b": "• Telefoon: +31 6 11 758 189",
+
+        // Bullet Points
+        "1cec19d8-8213-80b0-bd1a-f5c31c1f7ee1": "• Voor- en achternaam",
+        "1cec19d8-8213-8071-bd87-f7a4965b430b": "• E-mail adres",
+        "1cec19d8-8213-80f2-b9a3-e9056d9013dc": "• Telefoonnummer",
+        "1cec19d8-8213-805e-a5f2-e8039a79b217": "• Opmerkingen over allergieën of dieetwensen (optioneel)",
+        "1cec19d8-8213-803f-9509-c1628b23e12d": "• Valse of frauduleuze reserveringen te maken;",
+        "1cec19d8-8213-803e-b4a0-ee98a7324467": "• Meerdere keren te reserveren met de bedoeling niet te komen;",
+        "1cec19d8-8213-80f5-8b75-cb3282f0ef05": "• Het systeem te gebruiken op een manier die storend of schadelijk is voor het platform of het restaurant.",
+        "1cec19d8-8213-80f6-aa12-deea629d25d1": "• Wij zijn niet aansprakelijk voor schade ontstaan door storingen, vertragingen, of fouten in het systeem.",
+        "1cec19d8-8213-80a6-adfc-c7ef7a455098": "• Wij zijn niet verantwoordelijk voor fouten in reserveringen veroorzaakt door onjuist ingevoerde gegevens.",
+        "1cec19d8-8213-80bb-b9e9-f7652f8fbf4b": "• Het restaurant blijft eindverantwoordelijk voor de uitvoering van de reservering en service.",
+
+        // Privacy Policy
+        "1cec19d8-8213-80bc-8201-e5db4c53e31c": "• Toestemming: Door de reserveringswidget te gebruiken, geeft u toestemming voor de verwerking van uw persoonsgegevens voor het doel van het beheren van uw reservering.",
+        "1cec19d8-8213-80d6-898e-f0a008b9d716": "• Contractuele noodzaak: De verwerking is nodig om onze contractuele verplichtingen te vervullen om u de reserveringsdienst te bieden.",
+        "1cec19d8-8213-8063-8c5d-c57cbb493fdf": "• Gerechtigd belang: Wij kunnen uw gegevens verwerken op basis van onze gerechtigde belangen, zoals het verbeteren van onze diensten of het waarborgen van de beveiliging van onze systemen.",
+        "1cec19d8-8213-807d-93b5-d47835023c3d": "• Om uw reservering te bevestigen en te beheren.",
+        "1cec19d8-8213-8049-9b4b-c088d0595472": "• Om u te informeren over de status van uw reservering.",
+        "1cec19d8-8213-80b9-883b-e4df39e80dda": "• Om uw gegevens te delen met het restaurant waar u een reservering plaatst, en alleen voor zover dat nodig is.",
+        "1cec19d8-8213-806b-9071-eca72f0ec743": "• Om aan wettelijke verplichtingen te voldoen, zoals boekhouding of belastingplichten.",
+        "1cec19d8-8213-8085-8bac-cb6a80823c10": "• Versleuteling van gegevens tijdens overdracht en opslag.",
+        "1cec19d8-8213-8022-89f1-f08529e0c031": "• Toegangsbeheer om toegang tot gegevens te beperken tot geautoriseerd personeel.",
+        "1cec19d8-8213-8035-a32a-eb996684e616": "• Regelmatige beveiligingsaudits en monitoring.",
+        "1cec19d8-8213-80c1-9453-ccc13584edcf": "• Recht op inzage: U heeft het recht om toegang te vragen tot uw persoonsgegevens en een kopie te ontvangen van de gegevens die wij over u verwerken.",
+        "1cec19d8-8213-80c8-875d-e442e0c7f7dc": "• Recht op rectificatie: U heeft het recht om de correctie van onjuiste of onvolledige persoonsgegevens te vragen.",
+        "1cec19d8-8213-8085-9703-dba017373bd6": "• Recht op verwijdering: U heeft het recht om de verwijdering van uw persoonsgegevens te vragen, tenzij de gegevens nodig zijn voor juridische of contractuele redenen.",
+        "1cec19d8-8213-8048-bb85-ef0db0dd45cc": "• Recht op beperking van verwerking: U heeft het recht om de beperking van de verwerking van uw persoonsgegevens te vragen in bepaalde omstandigheden, zoals wanneer u de juistheid van de gegevens betwist.",
+        "1cec19d8-8213-80c8-83e9-f717d0cdbcf3": "• Recht op gegevensoverdraagbaarheid: U heeft het recht om uw persoonsgegevens in een gestructureerde, gangbare en machine-leesbare vorm te ontvangen en deze gegevens aan een andere verantwoordelijke te verstrekken.",
+        "1cec19d8-8213-803e-8765-d1d67e3c790e": "• Recht om te bezwaren: U heeft het recht om bezwaar te maken tegen de verwerking van uw persoonsgegevens, met name als de verwerking gebaseerd is op gerechtigd belang.",
+        "1cec19d8-8213-8010-b384-ce57feacd770": "• Recht op intrekking van toestemming: Als u toestemming heeft gegeven voor de verwerking van uw persoonsgegevens, kunt u deze toestemming altijd intrekken.",
+        "1cec19d8-8213-80de-b61a-d700d2ae9f23": "• Essentiële cookies: Deze zijn noodzakelijk voor de basisfunctionaliteit van de widget, zoals het beheren van uw reservering.",
+        "1cec19d8-8213-804c-bc95-dda81cd1ce7d": "• Analytische cookies: Deze helpen ons om te analyseren hoe de widget wordt gebruikt, zodat we de prestaties kunnen verbeteren."
     }
 };
 
 function changeLanguage(lang) {
-    document.getElementById('pageTitle').innerText = translations[lang].greeting;
-    document.getElementById('1cec19d8-8213-80e1-b5a0-cddbdc913192').innerText = translations[lang].description;
+    document.getElementById('pageTitle').innerText = translations[lang][lang === 'en' ? 'greeting' : 'greeting'];
     
     // Update all elements with translations based on their IDs
     for (const id in translations[lang]) {
