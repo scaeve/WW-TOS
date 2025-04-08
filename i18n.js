@@ -68,8 +68,8 @@ const translations = {
 
         // Contact Information
         "1cec19d8-8213-80ba-ad59-d6effbbc9dc1": "• Email: info@waste-warrior.com",
-        "1cec19d8-8213-80ee-b8cd-c6ec0c9a7b72": "• +31 6 11 75 81 89",
-        "1cec19d8-8213-80da-98b5-e9bb07411e76": "• FAQ: Waste Warrior Site",
+        "1cec19d8-8213-80ee-b8cd-c6ec0c9a7b72": "• Phone: +31 6 11 75 81 89",
+        "1cec19d8-8213-80da-98b5-e9bb07411e76": "• FAQ: https://waste-warrior.com/",
         "1cec19d8-8213-805b-bdc7-ccc0663cef6e": "• Email: info@waste-warrior.com",
         "1cec19d8-8213-808e-a26f-d066be965d8b": "• Phone: +31 6 11 758 189",
 
@@ -107,8 +107,8 @@ const translations = {
         "1cec19d8-8213-804c-bc95-dda81cd1ce7d": "• Analytical cookies: These help us analyze how the widget is used so that we can improve performance."
     },
     nl: {
-        greeting: "Algemene voorwaarden",
-        description: "bijgewerkt: 7-4-2025",
+        "pageTitle": "Algemene voorwaarden",
+        "1cec19d8-8213-80e1-b5a0-cddbdc913192": "Bijgewerkt: 7-4-2025",
         "1cec19d8-8213-8064-b8f8-c60dd728de1e": "Deze voorwaarden zijn van toepassing op het gebruik van de reserveringswidget waarmee hoofdboekers een reservering kunnen maken op de website van een aangesloten restaurant. Door gebruik te maken van deze widget gaat u akkoord met deze algemene voorwaarden.",
         "1cec19d8-8213-8042-a87b-cabd3756f906": "1. Toepassingsgebied",
         "1cec19d8-8213-808f-923d-e07953535cf0": "Deze algemene voorwaarden zijn van toepassing op alle gebruikers van de reserveringswidget (\"u\", \"gebruiker\") en beschrijven de rechten en plichten die verbonden zijn aan het gebruik van de widget. De widget is bedoeld voor individuen die namens zichzelf of een gezelschap een reservering willen maken bij een restaurant dat met ons systeem werkt.",
@@ -175,8 +175,8 @@ const translations = {
 
         // Contact Information
         "1cec19d8-8213-80ba-ad59-d6effbbc9dc1": "• E-mail: info@waste-warrior.com",
-        "1cec19d8-8213-80ee-b8cd-c6ec0c9a7b72": "• +31 6 11 75 81 89",
-        "1cec19d8-8213-80da-98b5-e9bb07411e76": "• FAQ: Waste Warrior Site",
+        "1cec19d8-8213-80ee-b8cd-c6ec0c9a7b72": "• Mobiel: +31 6 11 75 81 89",
+        "1cec19d8-8213-80da-98b5-e9bb07411e76": "• FAQ: https://waste-warrior.com/",
         "1cec19d8-8213-805b-bdc7-ccc0663cef6e": "• E-mail: info@waste-warrior.com",
         "1cec19d8-8213-808e-a26f-d066be965d8b": "• Telefoon: +31 6 11 758 189",
 
@@ -216,11 +216,11 @@ const translations = {
 };
 
 function changeLanguage(lang) {
-    document.getElementById('pageTitle').innerText = translations[lang][lang === 'en' ? 'greeting' : 'greeting'];
+    document.getElementById('pageTitle').innerText = translations[lang][lang === 'en' ? 'pageTitle' : 'pageTitle'];
     
     // Update all elements with translations based on their IDs
     for (const id in translations[lang]) {
-        if (id !== 'greeting' && id !== 'description') {
+        if (id !== 'pageTitle' && id !== 'description') {
             const element = document.getElementById(id);
             if (element) {
                 element.innerText = translations[lang][id];
