@@ -1,7 +1,7 @@
 const translations = {
     en: {
         "pageTitle": "Terms and Conditions",
-        "1cec19d8-8213-80e1-b5a0-cddbdc913192": "Updated: 7-4-2025",
+        "1cec19d8-8213-80e1-b5a0-cddbdc913192": "Updated: 8-4-2025",
         "1cec19d8-8213-8064-b8f8-c60dd728de1e": "These terms apply to the use of the reservation widget that allows main bookers to make a reservation on the website of an affiliated restaurant. By using this widget, you agree to these terms and conditions.",
         "1cec19d8-8213-8042-a87b-cabd3756f906": "1. Scope",
         "1cec19d8-8213-808f-923d-e07953535cf0": "These terms and conditions apply to all users of the reservation widget ('you', 'user') and describe the rights and obligations associated with the use of the widget. The widget is intended for individuals who want to make a reservation at a restaurant that works with our system on behalf of themselves or a group.",
@@ -108,7 +108,7 @@ const translations = {
     },
     nl: {
         "pageTitle": "Algemene voorwaarden",
-        "1cec19d8-8213-80e1-b5a0-cddbdc913192": "Bijgewerkt: 7-4-2025",
+        "1cec19d8-8213-80e1-b5a0-cddbdc913192": "Bijgewerkt: 8-4-2025",
         "1cec19d8-8213-8064-b8f8-c60dd728de1e": "Deze voorwaarden zijn van toepassing op het gebruik van de reserveringswidget waarmee hoofdboekers een reservering kunnen maken op de website van een aangesloten restaurant. Door gebruik te maken van deze widget gaat u akkoord met deze algemene voorwaarden.",
         "1cec19d8-8213-8042-a87b-cabd3756f906": "1. Toepassingsgebied",
         "1cec19d8-8213-808f-923d-e07953535cf0": "Deze algemene voorwaarden zijn van toepassing op alle gebruikers van de reserveringswidget (\"u\", \"gebruiker\") en beschrijven de rechten en plichten die verbonden zijn aan het gebruik van de widget. De widget is bedoeld voor individuen die namens zichzelf of een gezelschap een reservering willen maken bij een restaurant dat met ons systeem werkt.",
